@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>LoginApp</title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="assets/app.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills pull-right">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Bears List</a></li>
+            </ul>
+        </nav>
+        <h3 class="text-muted">LoginApp</h3>
+    </div>
+
+    <ng-view></ng-view>
+
+    <footer class="footer">
+        <p>&copy; 2016 LoginApp.</p>
+    </footer>
+</div>
 </body>
 </html>
