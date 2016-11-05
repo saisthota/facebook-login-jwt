@@ -1,0 +1,25 @@
+{
+  "name": "fblogin",
+  "version": "1.0.0",
+  "description": "Login with Facebook and authenticate using JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saisthota/facebook-login-jwt.git"
+  },
+  "keywords": [
+    "facebook",
+    "jwt",
+    "nodejs",
+    "express"
+  ],
+  "author": "Sai Thota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saisthota/facebook-login-jwt/issues"
+  },
+  "homepage": "https://github.com/saisthota/facebook-login-jwt#readme"
+}
